@@ -5,15 +5,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cartas</title>
+  <title>Juego de cartas</title>
   <link rel="icon" type="image/jpg" href="deck.png" />
-
+  <link rel="stylesheet" href="styles.css">
   <script src="index.js"></script>
 
 </head>
 
 <body>
-
+  <header class="header">
+    <h1 class="title">¡Adivina la carta!</h1>
+  </header>
+  <section class="section" class="explanation-section">
+    <header class="explanation">
+      <p>Las normas son las siguientes:<br>Debes adivinar si la segunda carta será mayor o menor que la
+        primera.<br>¡Consigue tantos puntos como puedas!
+      </p>
+    </header>
+    <main>
+      <ol type="none">
+        <li><img src="pngwing.com.png" alt="primera carta aleatoria"></li>
+        <li><img src="pngwing.com.png" alt="segunda carta aleatoria"></li>
+      </ol>
+    </main>
+  </section>
+  <section class="section">
+    <span>Puntuación: 0</span>
+    <button>Mayor</button>
+    <button>Menor</button>
+  </section>
 </body>
 
 </html>

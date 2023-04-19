@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+li img {
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+}
+
+.explanation-section {
+  display: flex;
+  flex-direction: column;
+}
